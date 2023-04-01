@@ -1,0 +1,345 @@
+.mobile-only {
+  display: none;
+}
+
+
+a {
+  color: white;
+}
+
+.main {
+  background-color: #130f40;
+  background-image: linear-gradient(155deg, #130f40 0%, #000000 74%);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 129px;
+  z-index: 0;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*Tempat Kartu, photo dan button*/
+.detail {
+  width: 89vw;
+  height: 73vh;
+  margin: auto;
+  position: relative;
+  padding-top: 0px;
+  margin-top: 51px;
+}
+
+/* BUTTON */
+.btn {
+  display: flex;
+  justify-content: end;
+  flex-direction: row-reverse;
+  width: 511px;
+  position: absolute;
+  top: -63px;
+  right: 19px;
+  z-index: 1;
+  gap: 10px;
+}
+
+button.mark {
+  font-size: xx-large;
+  padding: 12px 14px 10px 41px;
+  border-radius: 67px 8px 0px 0px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  border-radius: 23px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Fungsi */
+
+.fade-8 {
+  opacity: 0.8;
+}
+.fade-6 {
+  opacity: 0.6;
+}
+.fade-4 {
+  opacity: 0.4;
+}
+
+.order-1 {
+  margin-top: 10px;
+}
+.order-1:hover {
+  margin-top: 0px;
+  opacity: 1;
+}
+
+.order-2 {
+  margin-top: 15px;
+}
+.order-2:hover {
+  margin-top: 0px;
+  opacity: 1;
+}
+
+.order-3 {
+  margin-top: 20px;
+}
+.order-3:hover {
+  margin-top: 0px;
+  opacity: 1;
+}
+/* Photo */
+
+.photo {
+  width: 300px;
+  height: 300px;
+  left: 27px;
+  position: absolute;
+  top: -95px;
+  cursor: pointer;
+  z-index: 10;
+}
+.photoback {
+  width: 101%;
+  height: 102%;
+  position: absolute;
+  border-radius: 148px;
+  margin-left: -1.1px;
+  margin-top: -3.5px;
+}
+
+.back2 {
+  background: linear-gradient(360deg, transparent 208px, #ccd2d9 205px);
+}
+.back1 {
+  background: linear-gradient(180deg, transparent 94px, #130f40 78px);
+}
+
+.photoImg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 148px;
+  background-image: url(./1680333801772.jpg);
+  background-size: cover;
+  background-position-x: 0px;
+}
+/* Warna */
+
+.color-1 {
+  background-color: #ccd2d9;
+}
+.btn-color-1 {
+  background-color: #ccd2d9;
+}
+.b-top1 {
+  background: linear-gradient(360deg, transparent 208px, #ccd2d9 205px);
+}
+
+.color-2 {
+  background-color: #084f93;
+}
+.btn-color-2 {
+  background-color: #084f93;
+}
+.b-top2 {
+  background: linear-gradient(360deg, transparent 208px, #084f93 205px);
+}
+
+.color-3 {
+  background-color: #ffc357;
+}
+.btn-color-3 {
+  background-color: #ffc357;
+}
+.b-top3 {
+  background: linear-gradient(360deg, transparent 208px, #ffc357 205px);
+}
+.color-4 {
+  background-color: #07080a;
+}
+.btn-color-4 {
+  background-color: #07080a;
+}
+.b-top4 {
+  background: linear-gradient(360deg, transparent 208px, #07080a 205px);
+}
+
+.card-1 {
+  box-shadow: #ccd2d9 5px 5px, #084f93 10px 10px, #ffc357 15px 15px;
+}
+.card-2 {
+  box-shadow: #084f93 5px 5px, #ffc357 10px 10px, #07080a 15px 15px;
+  color: black;
+}
+.card-3 {
+  box-shadow: #ffc357 5px 5px, #07080a 10px 10px, #ccd2d9 15px 15px;
+  color: #E3E8EB;
+}
+.card-4 {
+  box-shadow: #07080a 5px 5px, #ccd2d9 10px 10px, #084f93 15px 15px;
+}
+
+.text-pengenalan {
+  margin: 10px auto;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: #ebebeb;
+}
+
+.text-pengenalan h1 {
+  font-size: 5rem;
+  text-align: right;
+  margin-right: -30px;
+}
+
+.text-pengenalan h2 {
+  margin-left: 60px;
+  margin-top: 60px;
+  font-size: 4.5rem;
+}
+
+.text-pengenalan h3 {
+  text-align: right;
+  margin-top: 12px;
+  font-size: 4rem;
+  margin-right: -20px;
+}
+
+.text-pengenalan h4 {
+  font-size: 4rem;
+  margin-left: -76px;
+}
+
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-container {
+  width: 805px;
+  display: flex;
+  height: 168px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+svg.icon {width: 150px;}
+
+p.detail-icon {
+  margin-left: 32px;
+  font-size: 4rem;
+}
+
+
+.icon-container.i2 {margin-left: 29px;margin-top: 20px;}
+
+.icon-container.i1 {
+    margin-left: 400px;
+}
+
+.icon-container.i3 {
+    margin-left: 301px;
+    font-size: 3.6rem;
+    gap: 35px;
+    margin-top: -20px;
+}
+
+.projectContainer {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-left: 20px;
+  margin-right: 5px;
+  text-align: left;
+  height: 177px;
+}
+
+.obj1 {
+  grid-area: 1/1/4/2;
+  margin-right: -10px;
+  height: 100%;
+  width: 64%;
+  margin-left: 36px;
+  border-radius: 85px;
+}
+
+.obj2 {
+  grid-area: 1/2/3/4;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.obj3 {
+  grid-area: 3/2/4/4;
+  margin-top: 19px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 62px;
+}
+
+.topGhostDiv {
+  display: none;
+}
+
+.proyek {
+  margin-top: 34px;
+  margin-left: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+
+
+.obj2 p {margin-top: 0px;}
+
+
+.text-Tentang {
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.text-Tentang br {
+  display: none;
+}
+
+p.p1 {
+  margin-left: 344px;
+  margin-right: 29px;
+}
+
+p.p2 {
+  margin-left: 409px;
+  margin-right: 140px;
+}
+
+ul.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 66px;
+}
+
+p.p3 {
+  margin-left: 76px;
+}

@@ -1,0 +1,226 @@
+/*Reset*/
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.comet{
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main {
+  background-color: #130f40;
+  background-image: linear-gradient(155deg, #130f40 0%, #000000 74%);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 6px;
+  z-index: 0;
+  position: relative;
+}
+
+/* Tempat */
+.detail {
+  width: 85vw;
+  height: 77vh;
+  position: relative;
+  margin: 0px auto;
+  padding-top: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*Button*/
+
+.btn {
+  position: fixed;
+  bottom: 64px;
+  z-index: 20;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  left: 0;
+  height: 53px;
+  justify-content: center;
+}
+
+button {
+  background-color: #a8ffc6;
+}
+
+button.mark {
+  width: 100vw;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: slategrey;
+}
+
+.card {
+  width: 100%;
+  border-radius: 23px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+/* Photo */
+.photo {
+  width: 200px;
+  height: 200px;
+  left: 77px;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+}
+.photoback {
+  width: 105%;
+  height: 105%;
+  position: absolute;
+  border-radius: 148px;
+  margin-left: -4.3px;
+  margin-top: -3.5px;
+}
+
+.back2 {
+  background: linear-gradient(360deg, transparent 208px, white 205px);
+}
+.back1 {
+  background: linear-gradient(180deg, transparent 5px, #130f40 19px);
+}
+
+.photoImg {
+  background: blue;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 148px;
+}
+
+/*jika display lebih kecil daripada 414 */
+@media only screen and (max-width: 400px) {
+  .photo {
+    left: 16.5vw;
+  }
+}
+
+/* Text */
+.text-pengenalan {
+  margin-top: 201px;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+
+.text-Tentang {
+  margin-top: 197px;
+  font-size: 1.3em;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Project */
+
+.projectContainer {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-left: 20px;
+  margin-right: 5px;
+  text-align: left;
+  height: 97px;
+}
+
+.obj1 {
+  width: 80px;
+  height: 80px;
+  grid-area: 1/1/4/2;
+  margin-right: -10px;
+}
+
+.obj2 {
+  grid-area: 1/2/3/4;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.obj3 {
+  grid-area: 3/2/4/4;
+}
+
+/* Warna */
+.color-1 {
+  background-color: white;
+}
+.btn-color-1:focus {
+  background-color: white;
+}
+.b-top1 {
+  background: linear-gradient(360deg, transparent 180px, white 0);
+}
+
+.color-2 {
+  background-color: aqua;
+}
+.btn-color-2:focus {
+  background-color: aqua;
+}
+.b-top2 {
+  background: linear-gradient(360deg, transparent 180px, aqua 0);
+}
+
+.color-3 {
+  background-color: yellow;
+}
+.btn-color-3:focus {
+  background-color: yellow;
+}
+.b-top3 {
+  background: linear-gradient(360deg, transparent 180px, yellow 0);
+}
+.color-4 {
+  background-color: red;
+}
+.btn-color-4:focus {
+  background-color: red;
+}
+.b-top4 {
+  background: linear-gradient(360deg, transparent 180px, red 0);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 257px;
+  margin-left: 24px;
+  height: 385px;
+}
+.icon-container {
+  height: 91px;
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+svg.icon {
+  width: 70px;
+  height: 100px;
+}
+
+p.detail-icon {
+  font-size: 2rem;
+}
